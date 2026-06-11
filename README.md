@@ -1,69 +1,73 @@
 🎬 Movie Recommendation System
 
-A Machine Learning-powered Web Application that recommends movies based on a user-selected movie. Built with Flask, Python, and Content-Based Filtering using TF-IDF + Cosine Similarity.
+A simple Machine Learning web application that recommends movies based on user selection using Content-Based Filtering (TF-IDF + Cosine Similarity).
 
-✨ Features
-🎯 Recommend movies based on similarity
-🔍 Search and select any movie from the dataset
-⚡ Fast and responsive web interface
-🌐 Built with Flask, fully interactive
-🧠 Uses ML algorithms for recommendation
-🧠 How It Works
-Movie descriptions are converted into numerical vectors using TF-IDF vectorization.
-Cosine similarity measures how similar movies are.
-The system recommends the top movies that are most similar to the selected movie.
+📌 Step 1: Project Overview
+This project recommends movies similar to the one selected by the user. It uses Machine Learning techniques to analyze movie genres/descriptions and find similarities.
 
-🛠️ Tech Stack
-Python – Core programming language
-Flask – Web framework
-Pandas – Data handling
-Scikit-learn – Machine Learning & TF-IDF
-HTML / CSS – Frontend UI
+✨ Step 2: Features
+🎯 Recommend similar movies
+🔍 Search and select any movie
+⚡ Fast and lightweight system
+🌐 Simple Flask web interface
+🧠 Uses ML-based similarity algorithm
 
-📁 Project Structure
+🧠 Step 3: How It Works
+Movie data is loaded from a dataset (movies.csv)
+Text data (genre/description) is converted into vectors using TF-IDF
+Cosine similarity is used to measure similarity between movies
+Top similar movies are recommended to the user
+
+🛠️ Step 4: Tech Stack
+Python 🐍
+Flask 🌐
+Pandas 📊
+Scikit-learn 🤖
+HTML / CSS 🎨
+
+📁 Step 5: Project Structure
 movie-recommender/
 │
-├── app.py                 # Flask backend
+├── app.py                 # Main Flask application
 ├── movies.csv             # Dataset
 ├── templates/
 │   └── index.html         # Frontend UI
 ├── static/
-│   └── style.css          # Custom styling
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
-▶️ How to Run
-1️⃣ Clone the Repository
+│   └── style.css          # CSS styling (optional)
+└── README.md
+
+⚙️ Step 6: Installation
+1. Clone the repository
 git clone https://github.com/your-username/movie-recommender.git
 cd movie-recommender
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-3️⃣ Run the Application
+3. Install dependencies
+pip install flask pandas scikit-learn
+
+▶️ Step 7: Run the Project
 python app.py
-4️⃣ Open in Browser
-http://127.0.0.1:5000/
 
-🎯 Example
+🌐 Step 8: Open in Browser
+
+After running the project,
+open:http://127.0.0.1:5000/
+
+🎯 Step 9: Example Output
+
 Input: Avengers
-Recommendations:
 
+Output:
 Iron Man
 Spider Man
 Thor
 Batman Begins
 
-🌟 Future Enhancements
-Add TMDB / MovieLens API integration for real-time movie data
-Display movie posters dynamically
-Add user ratings & collaborative filtering
-Deploy online using Render / Railway / Heroku
+🚀 Step 10: Future Improvements
+Add real dataset (MovieLens / TMDB)
+Show movie posters using API
+Improve recommendation accuracy
+Deploy online (Render / Railway)
 
-🏆 Learning Outcomes
-Build a content-based recommendation system
-Understand TF-IDF vectorization & cosine similarity
-Learn Flask web development for ML apps
-Integrate ML model with interactive frontend
-
-👨‍💻 Author
-GUNDALA VARSHA
+👨‍💻 Step 11: Author
+Name: GUNDALA VARSHA
 GitHub: https://github.com/gundalavarsha197-sys/movie-recommender.git
 LinkedIn:Gundala Varsha
