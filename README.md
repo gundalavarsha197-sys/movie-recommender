@@ -70,4 +70,4 @@ Deploy online (Render / Railway)
 👨‍💻 Step 11: Author
 Name: GUNDALA VARSHA
 GitHub: https://github.com/gundalavarsha197-sys/movie-recommender.git
-LinkedIn:Gundala Varsha
+LinkedIn: https://www.linkedin.com/in/gundala-varsha-25a604386/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BVmLugi9VQkay6AxO8GzRNg%3D%3D
