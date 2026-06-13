@@ -60,6 +60,9 @@ Iron Man
 Spider Man
 Thor
 Batman Begins
+# Screenshots
+<img width="1918" height="1078" alt="movie" src="https://github.com/user-attachments/assets/81bbddd1-4d62-433c-bd00-49eb17cee350" />
+
 
 🚀 Step 10: Future Improvements
 Add real dataset (MovieLens / TMDB)
